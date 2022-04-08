@@ -19,7 +19,7 @@ import Memorandum from "../assets/images/Memorandum.jpg";
 import Download from "../assets/images/download.jpg";
 import Legs from "../assets/images/Legs.jpg";
 import Logo2 from "../assets/images/Logo2.png";
-
+import { Link } from "react-router-dom";
 export default function Index() {
   return (
     <div>
@@ -126,14 +126,14 @@ export default function Index() {
                 </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#blog">
                   Blog
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="Contactos">
                   Contactos
-                </a>
+                </Link>
               </li>
             </ul>
             <form className="form-inline my-2 my-lg-0">
@@ -141,7 +141,9 @@ export default function Index() {
                 className="btn btn-outline-light_brown my-2 my-sm-0"
                 type="submit"
               >
+                <Link className="nav-link" to="register">
                 Registar
+                </Link>
               </button>
               <button
                 className="btn btn-outline-light_brown my-2 my-sm-0 ml-3"
@@ -720,7 +722,7 @@ export default function Index() {
           <div className="row">
             <div className="col-md-12">
               <h1>
-                <b>Blog</b>
+                <b id="blog">Blog</b>
               </h1>
             </div>
           </div>

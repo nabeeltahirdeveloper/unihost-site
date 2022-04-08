@@ -2,6 +2,7 @@ import React from "react";
 import Logo2 from "../assets/images/Logo2.png";
 import UK from "../assets/images/UK.jpg";
 import CardImgTop from "../assets/images/maxresdefault.jpg";
+import { Link } from "react-router-dom";
 
 export default function Escospe() {
   return (
@@ -76,9 +77,9 @@ export default function Escospe() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/">
                   Home <span className="sr-only">(current)</span>
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item dropdown">
@@ -108,9 +109,9 @@ export default function Escospe() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="contact">
                   Contactos
-                </a>
+                </Link>
               </li>
             </ul>
             <form className="form-inline my-2 my-lg-0">
@@ -118,7 +119,9 @@ export default function Escospe() {
                 className="btn btn-outline-light_brown my-2 my-sm-0"
                 type="submit"
               >
+                <Link className="nav-link" to="register">
                 Registar
+                </Link>
               </button>
               <button
                 className="btn btn-outline-light_brown my-2 my-sm-0 ml-3"
