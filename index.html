@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <link
+      href="./node_modules/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/fontawesome-free-5.13.0-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/owlcarousel/css/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/owlcarousel/css/owl.theme.default.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="./node_modules/bootstrap/jquery/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/js/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./node_modules/bootstrap/owlcarousel/js/owl.carousel.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        nav: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false,
+          },
+          600: {
+            items: 3,
+            nav: false,
+          },
+          1000: {
+            items: 3,
+            nav: true,
+            loop: false,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+/* ============= From index.css =============== */
+.owl-carousel {
+  display: none;
+  width: 25%;
+  z-index: 1;
+}
+.owl-carousel .owl-item img {
+  display: block !important;
+  width: 350px !important;
+  height: 30% !important;
+}
+.card-img-top {
+  width: 288px !important;
+}
+.fa-star {
+  color: #fd8c0c;
+}
+.span_12 {
+  color: #fd8c0c;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.pagination li a {
+  padding: 10px 10px;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px;
+  display: none;
+}
+.active_1 {
+  background: #c48b60;
+  border-radius: 10px;
+}
+.active_1 a {
+  color: #fff !important;
+}
+.fa-chevron-left {
+  color: lightgray;
+}
+.border_color {
+  border-color: #c48b60;
+}
+.details {
+  margin-left: 10px;
+}
