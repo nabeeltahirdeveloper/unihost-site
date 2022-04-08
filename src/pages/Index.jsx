@@ -4,7 +4,7 @@ import MomDad from "../assets/images/mom-and-dad.jpg";
 import Maxres from "../assets/images/maxresdefault.jpg";
 import BrownBed from "../assets/images/brown-bed.jpg";
 import Tomar from "../assets/images/tomar.jpg";
-import Peniche from "../assets/images/Brazil.jpg";
+import Peniche from "../assets/images/Brazil.png";
 import Marina from "../assets/images/marina-vigneria.jpg";
 import Brazil from "../assets/images/Brazil.png";
 import Logo from "../assets/images/logo.jpg";
