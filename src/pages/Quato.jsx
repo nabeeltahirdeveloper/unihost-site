@@ -5,7 +5,7 @@ import MasterBed from "../assets/images/master-bed.jpg";
 import Img from "../assets/images/images.jpeg";
 import Img5 from "../assets/images/5.jpg";
 import ABed from "../assets/images/white-bed.jpeg";
-import Profile2 from "../assets/images/Profile2.jpg";
+import Profile2 from "../assets/images/profile2.jpg";
 import MomDad from "../assets/images/mom-and-dad.jpg";
 import Maxres from "../assets/images/maxresdefault.jpg";
 import Logo2 from "../assets/images/Logo2.png";
